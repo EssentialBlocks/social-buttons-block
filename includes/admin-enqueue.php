@@ -10,7 +10,7 @@ class SocialButtonsAdminEnqueues
     public function enqueue_scripts()
     {
         if ($this->eb_is_edit_page()) {
-            wp_enqueue_style('fontpicker-default-theme',);
+            wp_enqueue_style('fontpicker-default-theme');
             wp_enqueue_style('fontpicker-matetial-theme');
             wp_enqueue_style('fontawesome-frontend-css');
             wp_enqueue_style('essential-blocks-hover-css');
